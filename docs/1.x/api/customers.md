@@ -26,7 +26,7 @@ You can create/register a new customer in the Bagisto store. To achieve this tas
 
 - Request
 
-  `GET http(s)://example.com/api/customer/register`
+  `POST http(s)://example.com/api/customer/register`
 
 - Params
 
@@ -86,7 +86,7 @@ Let's try the customer authentication,
 
 - Request
 
-  `GET http(s)://example.com/api/customer/login`
+  `POST http(s)://example.com/api/customer/login`
 
 - Params
 
